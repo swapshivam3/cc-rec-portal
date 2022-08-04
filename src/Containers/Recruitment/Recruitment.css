@@ -1,0 +1,27 @@
+.recruitment-card {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.recruitment-card-image {
+  background-image: url(../../images/hacker-5151533_1280.jpeg);
+  background-size: 100px;
+}
+
+.disabledButton {
+  opacity: 0.5 !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}

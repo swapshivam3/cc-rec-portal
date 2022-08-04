@@ -1,0 +1,23 @@
+.reg-form{
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.158);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.reg-form ::placeholder{
+    color: white;
+}
+
+.special ::placeholder{
+    color: rgb(236, 223, 223);
+    width: 60%;
+}
+
+.reg-form .input{
+    color: black !important;
+}
+/* .reg-form-field{
+    background: rgba(255, 255, 255, 0.1);
+} */

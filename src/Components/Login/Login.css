@@ -1,0 +1,26 @@
+:root {
+  --clr-neon: hsl(317 100% 54%);
+  --clr-bg: hsl(323 21% 16%);
+}
+
+.login-image{
+  background-image: url(../../images/hacker-5151533_1280.jpeg);
+  background-size: 80px;
+  border-radius: 50%;
+}
+
+
+.login-form{
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 3vw 0vw;
+}
+
+.login-form ::placeholder{
+  color: white;
+}
+
+.login-placeholder{
+  margin-left: -13px;
+}

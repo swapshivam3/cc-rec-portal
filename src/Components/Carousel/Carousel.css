@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+.achievement {
+  font-family: "Birthstone", cursive;
+}
+
+.container1 {
+  margin: 0 auto; 
+  width: 20rem;
+  height: 15rem;
+  -webkit-perspective: 60rem;
+          perspective: 60rem;
+}
+
+.carousel {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.thumbnail {
+  height: 15rem;
+  width: 20rem;
+  /* background-color: black; */
+  border: 2px solid black;
+  position: absolute;
+  font-size: 5em;
+  border-radius: 5%;
+  line-height: 13rem;
+  opacity: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
+
+.rotateY {
+  -webkit-transform: rotateY(60deg);
+          transform: rotateY(60deg);
+}
+
+.a1 {
+  -webkit-transform: rotateY(0deg) translateZ(20rem);
+          transform: rotateY(0deg) translateZ(20rem);
+}
+
+.b1 {
+  -webkit-transform: rotateY(60deg) translateZ(20rem);
+          transform: rotateY(60deg) translateZ(20rem);
+}
+
+.c1 {
+  -webkit-transform: rotateY(120deg) translateZ(20rem);
+          transform: rotateY(120deg) translateZ(20rem);
+}
+
+.d1 {
+  -webkit-transform: rotateY(180deg) translateZ(20rem);
+          transform: rotateY(180deg) translateZ(20rem);
+}
+
+.e1 {
+  -webkit-transform: rotateY(240deg) translateZ(20rem);
+          transform: rotateY(240deg) translateZ(20rem);
+}
+
+.f1 {
+  -webkit-transform: rotateY(300deg) translateZ(20rem);
+          transform: rotateY(300deg) translateZ(20rem);
+}
+/*# sourceMappingURL=Carousel.css.map */

@@ -1,0 +1,21 @@
+.drop {
+    transition: all 0.5s ease-in;
+}
+
+.bgdropdown{
+    backdrop-filter: saturate(150%) blur(30px);
+    background-color: rgba(0,0,0,0.35);
+}
+.mob-dd{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+}
+
+.activeStyled{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
